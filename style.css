@@ -7,12 +7,27 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+body {
+    background-color: #FEFEFA;
+}
+
+/* Thematic Break */
+div > hr {
+    border: 1px solid #1034a6;
+}
+
 /* Header */
 header a {
     font-family: "IBM Plex Sans", Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.15rem;
+    color: #010B13;
+}
+
+header svg {
+    color: #1034A6;
 }
 
 /* Main Content */
@@ -21,6 +36,7 @@ main .main-heading {
     font-weight: 600;
     font-style: normal;
     font-size: 2rem;
+    color: #010B13;
 }
 
 main .main-description {
@@ -28,6 +44,7 @@ main .main-description {
     font-weight: 400;
     font-style: normal;
     font-size: 1.60rem;
+    color: #010B13;
 }
 
 /* Footer */
@@ -37,4 +54,5 @@ footer {
     font-style: normal;
     font-size: 0.95rem;
     text-align: center;
+    color: rgba(1, 11, 19, .7);
 }
