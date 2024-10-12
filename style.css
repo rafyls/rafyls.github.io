@@ -30,6 +30,41 @@ header svg {
     color: #1034A6;
 }
 
+header > img {
+    width: 70px;
+    height: 70px;
+    margin-right: auto;
+    flex: none;
+}
+
+.header-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav-flex-item {
+    flex: none;
+}
+
+.ul-intlinks-flex-container {
+    display: flex;
+}
+
+.ul-intlinks-flex-container > li {
+    flex: none;
+    margin: 0 1.5em;
+}
+
+.ul-contact-flex-container {
+    display: flex;
+}
+
+.ul-contact-flex-container > li {
+    flex: none;
+    margin: 0 1.5em;
+}
+
 /* Main Content */
 main .main-heading {
     font-weight: 600;
