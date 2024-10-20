@@ -61,7 +61,8 @@ header a {
 }
 
 .homepage .home-link:after,
-.projects-page .projects-link:after {
+.projects-page .projects-link:after,
+.blog-page .blog-link:after {
     display: block;
     content: '';
     margin-top: 7px;
@@ -70,7 +71,9 @@ header a {
 .homepage .projects-link:after, 
 .homepage .blog-link:after,
 .projects-page .home-link:after,
-.projects-page .blog-link:after
+.projects-page .blog-link:after,
+.blog-page .home-link:after,
+.blog-page .projects-link:after
 {
     display: block;
     content: '';
@@ -82,7 +85,9 @@ header a {
 .homepage .projects-link:hover:after,
 .homepage .blog-link:hover:after,
 .projects-page .home-link:hover:after,
-.projects-page .blog-link:hover:after
+.projects-page .blog-link:hover:after,
+.blog-page .home-link:hover:after,
+.blog-page .projects-link:hover:after
 { 
     transform: scaleX(1); 
 }
