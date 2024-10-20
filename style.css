@@ -60,13 +60,18 @@ header a {
     color: #010B13;
 }
 
-.homepage .home-link:after {
+.homepage .home-link:after,
+.projects-page .projects-link:after {
     display: block;
     content: '';
     margin-top: 7px;
     border-bottom: solid 1.83px #1034A6;  
 }
-.homepage .projects-link:after, .homepage .blog-link:after {
+.homepage .projects-link:after, 
+.homepage .blog-link:after,
+.projects-page .home-link:after,
+.projects-page .blog-link:after
+{
     display: block;
     content: '';
     margin-top: 7px;
@@ -74,7 +79,11 @@ header a {
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
 }
-.homepage .projects-link:hover:after, .homepage .blog-link:hover:after { 
+.homepage .projects-link:hover:after,
+.homepage .blog-link:hover:after,
+.projects-page .home-link:hover:after,
+.projects-page .blog-link:hover:after
+{ 
     transform: scaleX(1); 
 }
 
