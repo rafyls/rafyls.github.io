@@ -140,6 +140,10 @@ header > img {
     margin: 0 1.5em;
 }
 
+header a span {
+    display: none;
+}
+
 /* Main Content */
 .main-heading {
     font-weight: 600;
